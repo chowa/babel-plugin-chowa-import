@@ -1,0 +1,32 @@
+{
+  "name": "babel-plugin-chowa-import",
+  "version": "1.0.0",
+  "description": "auto import chowa ui library file from import statements",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chowa/babel-plugin-chowa-import.git"
+  },
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "keywords": [
+    "react-chowa",
+    "vue-chowa",
+    "babel",
+    "import",
+    "plugin",
+    "babel-plugin"
+  ],
+  "author": "xuecong8226@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chowa/babel-plugin-chowa-import/issues"
+  },
+  "homepage": "https://github.com/chowa/babel-plugin-chowa-import#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
+}
