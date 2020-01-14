@@ -32,7 +32,7 @@ export default ({ types }) => {
                 const { specifiers, source } = node;
                 const libName = source.value;
 
-                if (!['react-chowa', 'vue-chowa'].includes(libName)) {
+                if (libName !== 'chowa') {
                     return;
                 }
 

@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-chowa-import",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "auto import chowa ui library file from import statements",
   "main": "lib/index.js",
   "repository": {
